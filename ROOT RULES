@@ -1,0 +1,37 @@
+^ hours
+* days
+‘ weeks
+‘’ months
+‘’’ years
+
+/ -> tomorrow
+// -> next week
+/// one month
+
+> two days from now
+>> diagonal to next week
+>>> diagonal down discretionarily
+
++ discretionary resked
+
+10% rounded down
++1
+no change
+-1
+-2
+-10% rounded up
+
+[permanent periodicity in brackets]
+
+Manuel Smart Schedule:
+1st overdue task to tomorrow
+Next 2 to 2 days from now
+Next 3 to 3 days from now
+Etc.
+
+Toodledo:
+- master outline of canonical identifiers
+Evernote:
+- tags must be canonical
+Todoist:
+- projects must be canonical
