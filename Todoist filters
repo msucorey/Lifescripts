@@ -1,0 +1,6 @@
+Master	tod & (due before: in 1 hours | @calendar📅 | (due after: 11:59pm & !p4)) & !(@work & due after: tod at 4pm & due before: 11:59pm), overdue & !p4, tom & (due after: tom at 11:59pm | @calendar📅) & !p4
+Mobile upcoming	@mobile & overdue, (@mobile | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @mobile & !p4 & due after: tom
+Computer upcoming	@computer & overdue, (@computer | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @computer & !p4 & due after: tom
+Errands upcoming	@errands & overdue, (@errands | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @errands & !p4 & due after: tom
+Home upcoming	@home & overdue, (@home | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @home & !p4 & due after: tom
+Work upcoming	@work & overdue, (@work | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @work & !p4 & due after: tom
