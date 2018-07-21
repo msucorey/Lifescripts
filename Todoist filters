@@ -3,4 +3,4 @@ Mobile upcoming	@mobile & overdue, (@mobile | @calendar📅) & ((tod & due befor
 Computer upcoming	@computer & overdue, (@computer | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @computer & !p4 & due after: tom
 Errands upcoming	@errands & overdue, (@errands | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @errands & !p4 & due after: tom
 Home upcoming	@home & overdue, (@home | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @home & !p4 & due after: tom
-Work upcoming	@work & overdue, (@work | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @work & !p4 & due after: tom
+Work upcoming	@work & overdue, (@work | @calendar📅) & ((tod & due before: in 1 hours) | ( tod & due after: 11:59pm) | (tom & !p4)), @work & !p4 & (in 2 days | in 3 days | in 4 days)
