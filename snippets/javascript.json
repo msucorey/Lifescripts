@@ -1,0 +1,88 @@
+{
+  "console.log()": {
+  "prefix":"log",
+  "body": [
+  "console.log($1);$0"
+  ],
+  "description":"console log"
+  },
+  "beforeEach()": {
+  "prefix":"be",
+  "body": [
+  "beforeEach(() => {",
+  "\t$1",
+  "};$0"
+  ]
+  },
+  "afterEach()": {
+  "prefix":"ae",
+  "body": [
+  "afterEach(() => {",
+  "\t$1",
+  "};$0"
+  ]
+  },
+  "beforeAll()": {
+  "prefix":"ba",
+  "body": [
+  "beforeAll(() => {",
+  "\t$1",
+  "};$0"
+  ]
+  },
+  "afterAll()": {
+  "prefix":"aa",
+  "body": [
+  "afterAll(() => {",
+  "\t$1",
+  "};$0"
+  ]
+  },
+  "describeAndIt": {
+  "prefix":"descIt",
+  "body": [
+  "describe('${1:when}', () => {",
+  "\tit('${2:should}', () => {",
+  "\t});",
+  "});$0"
+  ]
+  },
+  "describe": {
+  "prefix":"desc",
+  "body": [
+  "describe('${1:when}', () => {",
+  "});$0"
+  ]
+  },
+  "it": {
+  "prefix":"it",
+  "body": [
+  "it('${1:should}', () => {",
+  "});$0"
+  ]
+  },
+  "expect": {
+  "prefix":"exp",
+  "body": [
+  "expect(${1:theUnexpected})$0"
+  ]
+  },
+  "try": {
+  "prefix":"try",
+  "body": [
+  "try {",
+  " ${1:failureProneThing}",
+  "} catch (error) {",
+  " ${2:handleError(error)}",
+  "}"
+  ]
+  },
+  "jestMock": {
+  "prefix":"jm",
+  "body": [
+  "jest.mock('@/${1:pathToModule}', () => ({",
+  "\t${2:functionName}: jest.fn(),",
+  "}));"
+  ]
+  }
+}
